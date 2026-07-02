@@ -1,0 +1,33 @@
+id: LTS-000
+name: Service Name
+category: Teaching|Research|Operations|Safety|Infrastructure
+status: draft|active|retired
+owner:
+  team: Laboratory and Technical Services
+  contact_email: team@example.edu.au
+summary: Short description of the service.
+description: |
+  Longer explanation of what this service provides and for whom.
+eligibility:
+  - Staff
+  - Students
+request:
+  method: Email|Form|Portal
+  link: https://example.edu.au/request
+  required_information:
+    - Details required from requestor
+service_levels:
+  target_response_time: 2 business days
+  target_fulfilment_time: 10 business days
+availability:
+  hours: Mon-Fri 09:00-17:00
+  exceptions:
+    - Public holidays
+dependencies:
+  - Internal systems or external teams
+review:
+  cadence: Semesterly
+  next_review_date: 2026-12-01
+tags:
+  - labs
+  - teaching

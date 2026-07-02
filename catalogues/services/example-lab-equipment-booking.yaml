@@ -1,0 +1,39 @@
+id: LTS-001
+name: Lab Equipment Booking Support
+category: Teaching
+status: draft
+owner:
+  team: Laboratory and Technical Services
+  contact_email: lts@example.edu.au
+summary: Support for scheduling and coordinating lab equipment use for teaching activities.
+description: |
+  This service helps teaching teams plan and coordinate lab equipment bookings,
+  including advice on availability windows, setup requirements, and constraints.
+eligibility:
+  - Academic staff
+  - Professional staff
+request:
+  method: Form
+  link: https://example.edu.au/lts-booking-request
+  required_information:
+    - Subject code
+    - Teaching period
+    - Equipment list
+    - Preferred dates
+service_levels:
+  target_response_time: 2 business days
+  target_fulfilment_time: 5 business days
+availability:
+  hours: Mon-Fri 09:00-17:00
+  exceptions:
+    - Public holidays
+dependencies:
+  - Timetabling
+  - Lab technician availability
+review:
+  cadence: Semesterly
+  next_review_date: 2026-12-01
+tags:
+  - equipment
+  - booking
+  - teaching
