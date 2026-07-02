@@ -2,6 +2,16 @@
 
 This repository supports the creation and maintenance of service catalogues for the Laboratory and Technical Services team in FEIT.
 
+## Live Site
+
+The service catalogue site is published via GitHub Pages: https://enterprise-services-group.github.io/FEIT---Lab-Operation-Service-Catalogues/site/feit-lab-tech-services-catalogue.html
+
+Pages:
+- [Core services](https://enterprise-services-group.github.io/FEIT---Lab-Operation-Service-Catalogues/site/feit-lab-tech-services-catalogue.html)
+- [Specialist services](https://enterprise-services-group.github.io/FEIT---Lab-Operation-Service-Catalogues/site/specialist-services.html)
+- [How we work](https://enterprise-services-group.github.io/FEIT---Lab-Operation-Service-Catalogues/site/delivery-framework.html)
+- [Who we are](https://enterprise-services-group.github.io/FEIT---Lab-Operation-Service-Catalogues/site/who-we-are.html)
+
 ## Purpose
 
 The catalogue provides a clear, maintainable source of truth for:
@@ -18,6 +28,7 @@ The catalogue provides a clear, maintainable source of truth for:
 - `catalogues/services/` - Service entries in YAML
 - `templates/` - Reusable templates for new service entries
 - `docs/` - Governance and process documentation
+- `site/` - Static HTML pages published via GitHub Pages (see Live Site above)
 
 ## Quick Start
 
